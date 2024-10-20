@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Homepage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -12,7 +12,7 @@ import AacDashboard from './pages/Projects/AacDashboard';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutPage />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path='/project/f1-dataviz' element={<F1DataViz />} />
         <Route path='/project/aac-dashboard' element={<AacDashboard />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </ThemeProvider>
   );
 }
