@@ -65,7 +65,7 @@ function Homepage() {
             }} />
     </div>
           <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <ContainedButton label='View Full Portfolio' isCta={true} link='/projects' />
+            <ContainedButton label='View Full Portfolio' isCta={true} link='#/projects' />
           </Container>
         </Container>
         <Footer />

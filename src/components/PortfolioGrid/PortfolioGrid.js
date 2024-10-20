@@ -23,7 +23,7 @@ function PortfolioGrid() {
       <PortfolioCard
             title='synapseVR'
             description='An AI-driven virtual reality platform that transforms learning 3D prototyping and CAD tool education into an engaging and interactive experience.'
-            link='/project/synapsevr'
+            link='#/project/synapsevr'
           />
           <ParallaxProvider>
             <Parallax speed={10}>
@@ -43,7 +43,7 @@ function PortfolioGrid() {
           <PortfolioCard
             title='Formula 1 Data Visualisation'
             description='An interactive data visualisation studying tire strategies adopted by Formula 1 drivers and teams across different circuits. Built using JavaScript, D3, HTML, and CSS.'
-            link='/project/f1-dataviz'
+            link='#/project/f1-dataviz'
           />
           <ParallaxProvider>
             <Parallax speed={10}>
@@ -63,7 +63,7 @@ function PortfolioGrid() {
           <PortfolioCard
             title='AAC Device Dashboard'
             description='Collated academic research on augmentative and assistive communication (AAC) devices across different modalities into a real-time dashboard.'
-            link='/project/aac-dashboard'
+            link='#/project/aac-dashboard'
           />
           <ParallaxProvider>
             <Parallax speed={10}>
