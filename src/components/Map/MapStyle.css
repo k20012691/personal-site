@@ -1,0 +1,31 @@
+summary.maplibregl-ctrl-attrib-button {
+    display: none;
+}
+
+details.maplibregl-ctrl {
+    display: none;
+}
+
+.maplibregl-ctrl-attrib-inner {
+    display: none;
+}
+
+.MuiContainer-root.travel-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ccc;
+    font-size: 12px;
+    transition: ease-in-out 0.2s;
+    @media (min-width: 600px) {
+        padding: 0;
+    }
+}
+
+.MuiContainer-root.travel-item:hover {
+    font-weight: 500;
+    color: #eee;
+    transition: ease-in-out 0.2s;
+    cursor: default;
+}

@@ -1,0 +1,9 @@
+p.body {
+    font-size: 18px;
+    color: #555;
+    font-weight: 400;
+}
+
+li {
+    margin-bottom: 1rem;
+}

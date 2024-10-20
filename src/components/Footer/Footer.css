@@ -1,0 +1,11 @@
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: inherit;
+}
+
+.link:hover {
+    color: #222;
+}
