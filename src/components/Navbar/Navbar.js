@@ -23,7 +23,7 @@ function Navbar() {
           <div className='icon-box' style={{ fontSize: '1.2rem' }}>
             <img src={SharkToothMini} alt='Shark Tooth' height='70%' />
           </div>
-          <PageLink link={'/'} label='Vedeesh Bali' underline='none' />
+          <PageLink link={'https://k20012691.github.io/personal-site'} label='Vedeesh Bali' underline='none' />
         </div>
         <div className='nav-menu' style={{ 
           gap: Mobile ? '1.5rem' : '3rem'
@@ -31,7 +31,7 @@ function Navbar() {
         <PageLink link={'#/about'} label='About' underline='none' />
         <PageLink link={'#/projects'} label='Projects' underline='none' />
         </div>
-        <FidelitySlider />
+        {/* <FidelitySlider /> */}
     </Container>
   )
 }
