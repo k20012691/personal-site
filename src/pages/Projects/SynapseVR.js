@@ -4,6 +4,18 @@ import { Container, Typography, useMediaQuery } from '@mui/material'
 import Footer from '../../components/Footer/Footer'
 import '../Pages.css'
 
+import SplashScreen from '../../img/synapseVR/Frame 64.png'
+import Mappings from '../../img/synapseVR/2d3dMapping.png'
+import DesignThinking from '../../img/synapseVR/DT_Process.png'
+import Research from '../../img/synapseVR/Research.png'
+import ProblemStatementMap from '../../img/synapseVR/ProblemStatementMap.png'
+import Personas from '../../img/synapseVR/Personas.png'
+import Storyboard from '../../img/synapseVR/image.jpeg'
+import Matrix from '../../img/synapseVR/2x2Matrix.png'
+import Prototyping from '../../img/synapseVR/Prototyping.png'
+import SybotDrawings from '../../img/synapseVR/SyBot.png'
+import Testing from '../../img/synapseVR/Modifications.png'
+
 function SynapseVR() {
     const Mobile = useMediaQuery('(max-width: 600px)')
   return (
@@ -28,7 +40,7 @@ function SynapseVR() {
           }}
         >
             <img 
-                src='https://k20012691.github.io/portfolio/static/media/Frame%2064.d01b2d433ca77773d16d.png' 
+                src={SplashScreen}
                 alt='SynapseVR Poster' 
                 width='100%'
             />
@@ -45,7 +57,7 @@ function SynapseVR() {
                 whole new way of thinking spatially. It was like learning a new language, with a steep learning curve.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/2d3dMapping.6be46ee96962ad3d5c6e.png'
+                src={Mappings}
                 alt='2D to 3D Mapping'
                 width='50%'
             />
@@ -110,7 +122,7 @@ function SynapseVR() {
             the solution.
             </p>
             <img 
-                src='https://k20012691.github.io/portfolio/static/media/DT_Process.d84097cd14721efa61e1.png'
+                src={DesignThinking}
                 alt='Design Thinking Model'
                 width='60%'
             />
@@ -139,12 +151,12 @@ function SynapseVR() {
             Widening AI tool applicability via flexible learning.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/Research.067dc24499ae785763aa.png'
+                src={Research}
                 alt='Interview Quotes'
                 width='90%'
             />
             <img
-                src='https://k20012691.github.io/portfolio/static/media/ProblemStatementMap.c2c7b3d1c1cf5ad3b8a9.png'
+                src={ProblemStatementMap}
                 alt='Problem Statement Formation'
                 width='90%'
             />
@@ -181,7 +193,7 @@ function SynapseVR() {
             engineers and designers who wanted to expand their skill set into such tools.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/Personas.0faa251304e73e72584e.png'
+                src={Personas}
                 alt='Personas'
                 width='90%'
             />
@@ -189,7 +201,7 @@ function SynapseVR() {
             From these four user groups, I proceeded to create a storyboard entailing my desired user experience with regards to the product.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/Storyboard.4c35eb956737f9fca066.jpeg'
+                src={Storyboard}
                 alt='Storyboard'
                 width='100%'
             />
@@ -208,7 +220,7 @@ function SynapseVR() {
             By considering how different users interacted with the product in the storyboard, I was able to draft a set of specifications or technical requirements for it. These were polished into features which were prioritised using a 2×2 matrix.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/2x2Matrix.2ae7f4defa2c7828bc4a.png'
+                src={Matrix}
                 alt='2x2 Matrix'
                 width='90%'
             />
@@ -230,7 +242,7 @@ function SynapseVR() {
             The initial look and feel of the application was developed on paper. This was useful to test navigational flow and page layout. This was later polished into digital prototypes across two fidelities (low and medium) which was used for usability testing. Feedback from these tests was integrated into the final mockups.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/Prototyping.46ebbb49d394bdc5d825.png'
+                src={Prototyping}
                 alt='Prototyping'
                 width='90%'
             />
@@ -238,7 +250,7 @@ function SynapseVR() {
             An important aspect of the user interface is SyBot, the AI agent responsible for allocating users to a proficiency level, walking them through the course, and evaluating their tasks using comparable real-world examples. His appearance took inspiration from several existing robots across TV shows and animated movies. The baby face effect, which was applied to a number of these robots, played a part in SyBot’s development too.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/SyBot.8c02de8ae25e29fe5c1e.png'
+                src={SybotDrawings}
                 alt='SyBot'
                 width='90%'
             />
@@ -260,7 +272,7 @@ function SynapseVR() {
             While my tasks achieved a perfect pass rate, I made some key observations while observing my participants go about them. These were clarified as additional feedback on the product. My results were compiled into a report, which recommended changes across three levels: critical, major/minor, and cosmetic.
             </p>
             <img
-                src='https://k20012691.github.io/portfolio/static/media/Modifications.dee97388262a47820df9.png'
+                src={Testing}
                 alt='Testing'
                 width='100%'
             />
